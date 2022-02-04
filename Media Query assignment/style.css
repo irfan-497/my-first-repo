@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+
+
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: brown;
+}
+
+.main-content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+.side-bar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.side-bar ul{
+    list-style: none;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: seagreen;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li{
+    padding: 10px;
+}
+
+@media screen and (max-width:864px) {
+    .logo{
+        width: 70%;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .logo{
+        font-size: 1.3rem;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+
+
+
+@media screen and (max-width:446px) {
+    .logo{
+        font-size: 1rem;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:382px) {
+    .logo{
+        font-size: 0.8rem;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:382px){
+    .logo{
+        font-size: 0.8rem;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:344px){
+    .logo{
+        font-size: 0.5rem;
+    }
+
+    .menu{
+        width: 30%;
+    }
+}
+@media screen and (max-width:700px){
+    section{
+        display: block;
+        /* height: 324px; */
+    }
+   .main-content{
+       width: 100%;
+   }
+
+   .side-bar{
+       width:auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       overflow: hidden;
+   }
+}
+@media screen and (max-width:351px){
+   .footer{
+       font-size: 0.8rem;
+   }
+}
