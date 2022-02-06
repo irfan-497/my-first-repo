@@ -153,6 +153,8 @@ span{
 /* projects section */
 
 .hed{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 50px;
     align-items: center;
@@ -421,6 +423,7 @@ footer{
   justify-content: space-around;
   border: 2px solid rgb(248, 235, 235);
   background-color: #f2f4f3;
+  margin-top: 20px;
 }
 
 footer:hover{
