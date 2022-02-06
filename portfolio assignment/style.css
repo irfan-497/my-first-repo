@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #f4f3ee;
+}
+
+   /* nav bar */
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:  #312244;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.navbar:hover{
+  opacity: 1;
+}
+
+.logo{
+  width: 150px;
+  height: 30px;
+    font-size: 1.5rem;
+    font-weight:bold;
+    cursor: pointer;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo:hover{
+  width: 150px;
+  height: 30px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  transition: 0.8s;
+}
+
+.menu ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    cursor: pointer;    
+}
+
+.menu ul li{
+  width: 100px;
+  height: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu ul li:hover{
+  width: 100px;
+  height: 40px;
+  word-spacing: 5px;
+    letter-spacing: 3px;
+    transition: 0.9s;
+}
+.navs-btn .get-in-touch{
+    border: none;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* introduction section */
+
+.intro{
+    height: 300px;
+    padding:40px 250px;
+    margin-top: 60px;
+}
+
+.head{
+    font-size: 20px;
+    font-weight: 700;    
+}
+
+.head h4{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.head h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+span{
+    color:purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: cursive;
+    width: 355px;
+}
+
+.img{
+    position: absolute; 
+    bottom: 0;
+    top: 140px;
+    right: 100px; 
+ }
+
+ .buttons2 >input {
+   width: 100px;
+   height: 30px;
+    background-color: #3a0ca3;
+    color: white;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 150px;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .buttons2 >input:hover{
+    opacity:1;
+    width: 100px;
+    height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    transition: 0.9s;
+
+  }
+
+/* projects section */
+
+.hed{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    background-color: #735d78;
+    border-radius: 20px;
+    color: white;
+    margin: 0px 600px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hed:hover{
+  opacity: 1;
+}
+
+.project{
+    display: inline-block;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  
+} 
+
+.project h3{
+  width: 300px;
+  height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+  .project h3:hover{
+    width: 300px;
+    height: 40px;
+    background-color: #28253a;  
+    color: white;
+    cursor: pointer;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    transition: 0.9s;
+}  
+
+.nav-btns{
+    border: none;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    font-weight: 200;
+    background-color: rgb(0, 128, 133);
+    color: white;
+    border-radius: 20px;
+    margin-left: 605px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.nav-btns:hover{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    transition: 0.9s;
+}
+
+/* Clients */
+
+#clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+    padding: 50px 0px;
+    font-size: 20px;
+}
+
+.skill-heading h3{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c-box-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+
+.client-box {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px ;
+  background-color: #8093f1;
+}
+
+.client-box img{
+  width: 90px;
+  height: 90px;
+  border-radius:50%;
+  border: 2px solid rgb(243, 235, 235);
+
+}
+.star{
+  display: flex;
+  margin-top: 30px;
+}
+
+.star i{
+  color: gold;
+}
+
+.client-box p {
+  font-size: 14px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.client-box a{
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  background-color: black;
+  border-radius: 10px;
+  /* padding-top: 40px; */
+  font-size: 1rem;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.client-box a:hover{
+  width: 170px;
+  height: 40px;
+  color: black;
+  background-color: #f4f3ee;
+  white-space: 3px;
+  letter-spacing: 2px;
+  transition: 0.9s;
+}
+/* Full-width input fields */
+
+.content{
+  padding-left: 40px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin:0 500px;
+    display: flex;
+    border: none;
+    background: white;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  b{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  label{
+      margin:0 500px;
+  }
+
+  button {
+    background-color: #143f85;
+    color: white;
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.8;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 0px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    width: 10%;
+  
+  }  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+
+  }
+
+  .clearfix{
+      padding-left: 600px;
+  }
+
+  h1{
+      padding-left: 40px;
+      margin-top: 30px;
+      text-align: center;
+      font-family: monospace;
+      font-weight: bold;
+  }
+
+  .paragraph{
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: monospace;
+      font-weight: bold;
+      padding-left:40px;
+  }
+
+  .paragraph4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left:40px;
+
+  margin-left: 50px;
+
+}
+
+/* footer section */
+  
+footer{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid rgb(248, 235, 235);
+  background-color: #f2f4f3;
+}
+
+footer:hover{
+  background-color: #161515;
+  color: white;
+}
+
+footer p {
+  width: 400px;
+  height: 30px;
+  margin-top: 15px;
+  padding:0 20px;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p:hover{
+  width: 400px;
+  height: 30px;
+  cursor: pointer;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  transition: 1s;
+}
