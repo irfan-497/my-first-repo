@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+}
+
+ .logo{
+     padding-top: 10px;
+    padding-left: 10px; 
+} 
+.icon{
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.home{
+    padding-top: 10px;
+}
+
+h5{
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+h4{
+    color: white;
+    cursor: pointer;
+}
+
+ .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    float: right;
+    padding: 10px 10px;
+    margin-top: 12px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  input[type=text] {
+    padding:10px 10px;
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+.search-container button {
+    float: right;
+    padding: 10px 10px;
+    margin-top: 12px;
+    margin-right: 16px;
+    background:#ffb703;
+    font-size: 17px;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #ffb703;
+  }
+
+
+  .images{
+      padding-left: 20px;
+      padding-top: 20px;
+  }
+
+  .dropbtns {
+    float: right;
+    margin-top: 25px;
+    padding-left: 5px;
+    background-color:black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .homes{
+      padding-top: 10px;
+      padding-left: 20px;
+      font-family: serif;
+  }
+
+  
+  .cart{
+      padding-top: 25px;
+      padding-left: 20px;
+  }
+
+  h3{
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .navbar{
+      background-color: #264653;
+      color: white;
+      width: 100%;
+      height: 40px;
+  }
+
+  ul{
+      display: flex;
+    }
+    
+    ul li{
+        list-style: none;
+      padding: 10px 15px;
+      cursor: pointer;
+  }
+
+  ul li:hover{
+      color:#ffb703;
+  }
+
+
+  .accesries{
+      width: 100%;
+      margin-top: 40px;
+      display: flex;
+  }
+
+  .info{
+      background-color: #ffb703;
+      margin: 10px;
+  }
+
+  h1{
+      margin-top: 10px;
+      padding-left: 180px;
+      padding-bottom: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p{
+      font-size: 20px;
+      padding-left: 140px;
+  }
+  .explain{
+      padding-left: 80px;
+  }
+
+  .explain:hover{
+      cursor: pointer;
+  }
+
+  .design{
+      margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .design:hover{
+      color: black;
+      background-color: #ddd;
+  }
+
+  .products{
+      width: 20%;
+      display:flex;
+      margin-top: 40px 0;
+      margin-left: 20px;
+  }
+
+   .information{ 
+       background-color: silver;
+       padding:0 22px;
+       margin:20px 10px;
+   }
+
+  .heads{
+      color:black;
+      padding: 0;
+      padding-left: 10px;
+  }
+
+  .im{
+      padding-left: 15px;
+  }
+
+  .see{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: none;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+
+ .accesriess{
+     width: 100%;
+     margin-top: 20px;
+
+ }
+
+ .infos{
+    
+    background-color: #ede0d4;
+    margin: 20px;
+}
+
+.head{
+    margin-top: 10px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 450px; 
+}
+.explains{
+    padding-left: 120px;
+}
+
+.explains:hover{
+    cursor: pointer;
+}
+
+.designs{
+    margin-top: 10px;
+    background-color: #001d3d;
+    color: silver;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-left: 600px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.designs:hover{
+    color:white;
+    background-color: #264653;
+}
+
+
+
+.inf{
+    background-color: #ddd;
+    margin:40px 20px;
+}
+
+.par{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-top: 10px;
+}
+
+
+.ims{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.paragraphs{
+    margin-left: 370px;
+}
+
+.sign{
+    margin:20px 0px;
+}
+.in{
+    border: none;
+    border-radius: 10px;
+    background-color: #ffb703;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:5px 100px;
+    margin-left: 530px;
+    cursor: pointer;
+}
+
+.p{
+    margin-left: 440px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(108, 187, 187);
+}
+
+.back{
+    background-color: #001d3d;
+    padding-left: 390px;
+    font-size: 10px;
+    color: white;
+}
+h1{
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.footer{
+    background-color: #264653;  
+    height: 300px;
+    /* margin-bottom: 20px; */
+}
+
+.foot{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+
+.h{
+    font-size: 20px;
+    padding-top: 30px;
+    color: white;
+    padding-left: 80px;
+    font-family: serif;
+}
+
+a{
+    padding-left: 80px;
+    text-decoration: none;
+    display: flex;
+    margin:0 10px;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+.footers{
+    width: auto;
+    background-color: #264653;
+    height: 100px;
+}
+
+
+
+ .bio{
+     
+     display: flex;
+     padding-top: 20px;
+     padding-left: 410px;
+     color: white;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.i{
+    padding-top: 15px;
+     cursor: pointer;
+}
+.united{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footerss{
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.foots{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
